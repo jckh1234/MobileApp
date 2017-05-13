@@ -1,0 +1,28 @@
+{
+  "name": "Sample App",
+  "description": "An empty new project",
+  "slug": "two-factor-auth-ui",
+  "privacy": "public",
+  "sdkVersion": "16.0.0",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "primaryColor": "#cccccc",
+  "icon": "./assets/icons/loading.png",
+  "loading": {
+    "icon": "./assets/icons/loading.png",
+    "hideExponentText": true
+  },
+  "notification":{
+    "icon": "./assets/icons/loading.png"
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4"]
+  },
+  "android":{
+    "package": "com.somecom.sampleapp",
+  },
+  "ios": {
+    "supportsTablet": true
+  }
+
+}
